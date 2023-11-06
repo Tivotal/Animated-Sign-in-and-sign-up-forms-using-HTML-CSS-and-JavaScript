@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signin/Signup Form</title>
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <div class="forms">
+          <form action="#" class="signinForm">
+            <div class="title">
+              <h4>Hello, Again!</h4>
+              <p>We are happy to have you again</p>
+            </div>
+
+            <div class="field">
+              <input type="text" required />
+              <label for="">Email Address</label>
+            </div>
+
+            <div class="field">
+              <input type="password" required />
+              <label for="">Password</label>
+            </div>
+
+            <div class="remember">
+              <input type="checkbox" id="remember" />
+              <label for="remember">Remember me</label>
+            </div>
+
+            <div class="field">
+              <input type="submit" value="Sign In" class="btn" />
+            </div>
+
+            <a href="#" class="forgot-pass">Forgot Password?</a>
+          </form>
+
+          <form action="#" class="signupForm">
+            <div class="title">
+              <h4>Welcome Dear!</h4>
+              <p>We are happy to have you with us</p>
+            </div>
+
+            <div class="field">
+              <input type="text" required />
+              <label for="">Full Name</label>
+            </div>
+
+            <div class="field">
+              <input type="text" required />
+              <label for="">Email Address</label>
+            </div>
+
+            <div class="field">
+              <input type="password" required />
+              <label for="">Password</label>
+            </div>
+
+            <div class="remember">
+              <input type="checkbox" id="check" />
+              <label for="check">Remember me</label>
+            </div>
+
+            <div class="field">
+              <input type="submit" value="Sign Up" class="btn" />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="slides">
+        <input type="radio" name="slide" id="login" checked />
+        <input type="radio" name="slide" id="signup" />
+        <label for="login" class="slide login">Login</label>
+        <label for="signup" class="slide signup">Signup</label>
+        <div class="indicator"></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
